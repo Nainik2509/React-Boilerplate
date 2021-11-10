@@ -1,0 +1,17 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for React, Typescript with Webpack-5 and babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Boilerplate",
+    "Typescript",
+    "Webpack5"
+  ],
+  "author": "Nainik Mehta",
+  "license": "ISC"
+}
