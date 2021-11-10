@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import IMAGE from "./download.jpg";
 import SVG from "./svgFile.svg";
+import ClickCounter from "./ClickCounter";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       </h1>
       <img src={IMAGE} alt="LOGo" width="300" height="300" />
       <img src={SVG} alt="SVG" width="300" />
+      <ClickCounter />
     </>
   );
 }
