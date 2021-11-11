@@ -9,6 +9,6 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.name': JSON.stringify('Code-Evolution'),
     }),
-    // new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(), // To Get buldle size details
   ],
 }
